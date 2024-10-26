@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <script src="js2.js"></script>
+    <title>TIC TAC TOE</title>
+</head>
+<body>
+    <h1>TIC TOC TOE</h1>
+    <h2 id="win"></h2>
+    <div class="outertable" >
+    <table align="center" id="table">
+        <tr align="center" id="11">
+            <td class="rc11" id="1" onclick="xo(1)" ></td>
+            <td class="rc12" id="2" onclick="xo(2)"></td>
+            <td class="rc13"  id="3" onclick="xo(3)"></td>
+        </tr>
+        <tr align="center">
+            <td class="rc21" id="4" onclick="xo(4)"></td>
+            <td class="rc22" id="5" onclick="xo(5)"></td>
+            <td class="rc23" id="6" onclick="xo(6)"></td>
+        </tr>
+        <tr align="center">
+            <td class="rc31" id="7" onclick="xo(7)"></td>
+            <td class="rc32" id="8" onclick="xo(8)"></td>
+            <td class="rc33" id="9" onclick="xo(9)"></td>
+        </tr>
+    </table>
+    <h3 id="xro"></h3>
+    <button class="Restart" onclick="clearr()">Restart</button>
+</div>
+</body>
+</html>

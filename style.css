@@ -1,0 +1,22 @@
+body{
+    background-image: url(—Pngtree—background\ of\ monitor\ computer\ with_15517930.png);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    height:100vh;
+}
+.heading{
+    text-align: center;
+    margin-top:9vh;
+    font-size:70px;
+    color: rgb(158, 247, 26);
+}
+.btn{
+    margin-left: 41vw;
+    margin-top: 40.5vh;
+    width:15vw;
+    height:5vh;
+    border-radius: 25px;
+    background-color: rgb(241, 245, 26);
+    font-size: 20px;
+}

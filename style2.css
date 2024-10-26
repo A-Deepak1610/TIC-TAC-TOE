@@ -1,0 +1,59 @@
+
+body{
+    background-color: black;
+    width: 100vw;
+    height:100vh;
+}
+h1{
+    text-align: center;
+    color:white;
+    font-style: inherit;
+    margin-top: 30px;
+}
+td{
+   border-width: 3px;
+   border-style: solid;
+   border-color: rgb(255, 0, 0);
+   width: 100px;
+   height: 100px;
+}
+td:hover{
+    cursor: pointer;
+    background-color:rgba(211, 37, 138, 0.849);
+}
+table{
+    border-spacing: 5px;
+}
+.outertable{
+    align-content: center;
+    border-style: solid;
+    border-color: black;
+    width:40vw;
+    height: 70vh;
+    margin-left: 29%;
+    margin-top: 5%;
+    background-color: black;
+    box-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+}
+.Restart{
+    position: absolute;
+    top: 85%;
+    left: 47.5%;
+    width: 90px;
+    background-color: aqua;
+    height: 4vh;
+
+}
+.Restart:hover{
+    cursor: pointer;
+}
+td{
+    color: aqua;
+    font-size:75px;
+}
+h2{
+    color:white;
+}
+h3{
+    color: white;
+}
