@@ -29,7 +29,7 @@ table{
     border-style: solid;
     border-color: black;
     width:40vw;
-    height: 70vh;
+    height: 75vh;
     margin-left: 29%;
     margin-top: 5%;
     background-color: black;
@@ -37,7 +37,7 @@ table{
 }
 .Restart{
     position: absolute;
-    top: 85%;
+    top: 100%;
     left: 47.5%;
     width: 90px;
     background-color: aqua;
@@ -45,6 +45,7 @@ table{
 
 }
 .Restart:hover{
+    
     cursor: pointer;
 }
 td{
@@ -52,8 +53,15 @@ td{
     font-size:75px;
 }
 h2{
-    color:white;
+    text-align: center;
+    color:rgb(246, 246, 3);
+    font-size: 25px;
 }
 h3{
     color: white;
+}
+p{
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
 }

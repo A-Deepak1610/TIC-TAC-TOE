@@ -1,5 +1,14 @@
-
-var turn=1;
+function fst(first){
+     if(first==1){
+          turn=1
+     }
+     else if(first==2){
+          turn=0
+     }
+     var st=document.getElementById("st")
+     st.textContent=""
+}    
+var turn;
 function xo(input) {
     var rc011 = document.getElementById(input);
     if(rc011.textContent=="" && xod()==0){
@@ -20,7 +29,7 @@ function xo(input) {
           win.textContent="O wins"
     }
     else if(xod()=="d"){
-          xod.textContent="Draw"
+          win.textContent="Draw"
     }
 }
 function xod(){
@@ -60,9 +69,8 @@ function xod(){
      else if(a.textContent != ""&&b.textContent != ""&&c.textContent != ""&&d.textContent != ""&&e.textContent != ""&&f.textContent != ""&&g.textContent != ""&&h.textContent != ""&&i.textContent != ""){
           return "d"
      }
+
      return 0
-     
-     
 }
 function clearr(){
      var clr1=document.getElementById("1")
@@ -86,4 +94,7 @@ function clearr(){
      turn=1
      var win=document.getElementById("win")
      win.textContent=""
+     var stt=document.getElementById("st")
+     stt.innerHTML='<p id="st">Choose 1st player:<button id="X" onclick="fst(1)">X</button><button id="O" onclick="fst(2)">O</button></p>'
+
  }
