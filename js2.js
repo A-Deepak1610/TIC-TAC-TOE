@@ -1,24 +1,31 @@
+var turn;
 function fst(first){
      if(first==1){
           turn=1
+          var st=document.getElementById("st")
+          st.textContent=""
      }
      else if(first==2){
           turn=0
+          var st=document.getElementById("st")
+          st.textContent=""
      }
-     var st=document.getElementById("st")
-     st.textContent=""
-}    
-var turn;
+     
+}
 function xo(input) {
     var rc011 = document.getElementById(input);
     if(rc011.textContent=="" && xod()==0){
         if(turn==0){
         rc011.textContent="O"
         turn =1;
+        var st=document.getElementById("st")
+          st.textContent=""
         }
         else{
           rc011.textContent="X"
           turn=0;
+          var st=document.getElementById("st")
+          st.textContent=""
      }
     }
     var win=document.getElementById("win")
